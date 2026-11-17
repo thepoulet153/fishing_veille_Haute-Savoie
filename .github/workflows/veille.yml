@@ -1,0 +1,40 @@
+name: Veille pêche gratuite
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 00:17 / 06:17 / 12:17 / 18:17 UTC. Les exécutions planifiées peuvent être retardées.
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fishwatch-veille
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Exécuter les tests
+        run: python -m unittest discover -s tests -v
+      - name: Actualiser les données
+        run: python collect.py
+      - name: Publier veille.json et les empreintes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veille.json data/monitor_state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualiser la veille FISHWATCH"
+            git push
+          else
+            echo "Aucun changement"
+          fi
