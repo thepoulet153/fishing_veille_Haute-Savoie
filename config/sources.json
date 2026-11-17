@@ -1,0 +1,50 @@
+{
+  "description": "Recherches Google Actualités RSS : deux requêtes par besoin prioritaire en renseignement (PIR). Chaque résultat doit être vérifié à sa source primaire avant décision.",
+  "feeds": [
+    {
+      "id": "PIR1-regles",
+      "pir": "PIR-1",
+      "label": "Arrêtés et règles",
+      "query": "(pêche OR truite) (arrêté OR réglementation OR interdiction) (Haute-Savoie OR Annecy OR Fier OR Arve) -mer -maritime"
+    },
+    {
+      "id": "PIR1-consultations",
+      "pir": "PIR-1",
+      "label": "Consultations et restrictions",
+      "query": "(pêche OR poissons) (consultation publique OR restriction OR fermeture) (Haute-Savoie OR Chéran OR Dranse)"
+    },
+    {
+      "id": "PIR2-etiage",
+      "pir": "PIR-2",
+      "label": "Sécheresse et étiage",
+      "query": "(sécheresse OR étiage OR débit OR restrictions d'eau) (Haute-Savoie OR Arve OR Fier OR Chéran)"
+    },
+    {
+      "id": "PIR2-crues",
+      "pir": "PIR-2",
+      "label": "Crues et conditions",
+      "query": "(crue OR inondation OR alerte hydrologique OR température de l'eau) (Haute-Savoie OR Arve OR Annecy)"
+    },
+    {
+      "id": "PIR3-pollution",
+      "pir": "PIR-3",
+      "label": "Pollution et mortalité",
+      "query": "(poissons OR truites OR rivière) (pollution OR mortalité OR contamination) (Haute-Savoie OR Arve OR Fier)"
+    },
+    {
+      "id": "PIR3-etudes",
+      "pir": "PIR-3",
+      "label": "Études et santé piscicole",
+      "query": "(salmonidés OR populations de truites OR santé des poissons) (étude OR maladie OR suivi) (Haute-Savoie OR Annecy OR Chéran)"
+    }
+  ],
+  "website_monitors": [
+    {
+      "id": "pref-peche74",
+      "label": "Préfecture 74 — pêche en eau douce",
+      "url": "https://www.haute-savoie.gouv.fr/Actions-de-l-Etat/Vos-loisirs/Peche/Peche-en-eau-douce",
+      "enabled": true,
+      "note": "Compare le texte principal de la page ; une modification ne prouve aucune décision réglementaire."
+    }
+  ]
+}

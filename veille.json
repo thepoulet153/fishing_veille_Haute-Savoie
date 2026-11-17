@@ -1,0 +1,6 @@
+{
+  "updated_at": null,
+  "source": "collecte_non_executee",
+  "articles": [],
+  "stats": {"new_articles": 0, "feeds_ok": 0, "feeds_failed": 0, "errors": [], "note": "Lancer python collect.py ou l'action GitHub pour démarrer la collecte."}
+}
