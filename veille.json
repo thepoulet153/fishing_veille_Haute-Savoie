@@ -1,6 +1,119 @@
 {
-  "updated_at": null,
-  "source": "collecte_non_executee",
-  "articles": [],
-  "stats": {"new_articles": 0, "feeds_ok": 0, "feeds_failed": 0, "errors": [], "note": "Lancer python collect.py ou l'action GitHub pour démarrer la collecte."}
+  "updated_at": "2026-11-17T11:26:50.371741+01:00",
+  "source": "python_rss_sans_ia",
+  "articles": [
+    {
+      "id": "rss-c122b1bfc850de000f",
+      "date": "2026-11-03",
+      "title": "Sécheresse en Haute-Savoie - Haute-savoie.gouv.fr",
+      "summary": "Sécheresse en Haute-Savoie Haute-savoie.gouv.fr",
+      "source": "Haute-savoie.gouv.fr (via Google Actualités)",
+      "publisher_url": "https://www.haute-savoie.gouv.fr",
+      "source_channel": "Arrêtés et règles",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOejNfWXRDY0ZDZkIzU1VZOVlJeWZDZzJVU0dLQkhxNmtPZHNrMjVYblRqb2FrU3hqSzg0Z3BwQTJNV3JtdjAtdEZzdXI1M2hEeHIxUEwzV1lkWDVSdlR3dGFBN3p2UWw2M0N3VU5qdHhzVDBOTkVEcXB1U1pyMVk0VlZYYmpkanR1TUtsaWdIdHVxTXVQMDFaVFRWbjBpM3pnWHQtQjNIRFQ2TFlJTy1nS05hN0hMR0RWYmFiYVdKNldNWENF?oc=5",
+      "pir": "PIR-2",
+      "indicator": "Sécheresse ou étiage",
+      "score": 10,
+      "score_details": {
+        "pir": 3,
+        "indicateur": 3,
+        "impact_local": 2,
+        "source_primaire_ou_AB": 1,
+        "nouveaute": 1
+      },
+      "justification": "Correspondance lexicale vérifiable — à confirmer",
+      "cote": "A6",
+      "status": "",
+      "confidence": "non evaluee",
+      "demo": false,
+      "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
+    },
+    {
+      "id": "rss-902701890121cf01cf",
+      "date": "2026-10-31",
+      "title": "Sécheresse. Des restrictions d’eau prolongées en novembre dans le département de la Haute-Savoie - Le Messager",
+      "summary": "Sécheresse. Des restrictions d’eau prolongées en novembre dans le département de la Haute-Savoie Le Messager",
+      "source": "Le Messager (via Google Actualités)",
+      "publisher_url": "https://www.lemessager.fr",
+      "source_channel": "Sécheresse et étiage",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRXE4c3RuTXZkdjZNTDNScTJmTkstVXpZbW5ReGtBWTlaYndpelMyalhDY1lsMVJLS0txRTRPTG9XdXJPQ2N4SG9zT1R3Z0U5aDJmTUpDRzZLTnRBZXE3MlhIbTNDczJCMi1QWFRKVFNLSUJsTFNuSnZQQkFZNHM5ZDY1Sm5oYXBkRVpUdEszWTh6LUg1am9ZQzlPQ1p3TUZFWlpxam1vcTBORkxZYV9GZWFmR0Z0RGZ6ZnRSZHpWTDF4RFlVSmtKc004SVpmZ2M?oc=5",
+      "pir": "PIR-2",
+      "indicator": "Sécheresse ou étiage",
+      "score": 9,
+      "score_details": {
+        "pir": 3,
+        "indicateur": 3,
+        "impact_local": 2,
+        "source_primaire_ou_AB": 0,
+        "nouveaute": 1
+      },
+      "justification": "Correspondance lexicale vérifiable — à confirmer",
+      "cote": "F6",
+      "status": "",
+      "confidence": "non evaluee",
+      "demo": false,
+      "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
+    },
+    {
+      "id": "rss-5183c730f24240708b",
+      "date": "2026-10-15",
+      "title": "Sécheresse: un nouveau bassin placé en alerte \"crise\" en Haute-Savoie - BFM",
+      "summary": "Sécheresse: un nouveau bassin placé en alerte \"crise\" en Haute-Savoie BFM",
+      "source": "BFM (via Google Actualités)",
+      "publisher_url": "https://www.bfmtv.com",
+      "source_channel": "Sécheresse et étiage",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVWt0WXJwNFAxNjlvS1RWM0czUnlweG8tdm5ERFFOX05lYjBzTkI0TmMxT3lTSzY2V0NRRVB6b1h6Z21adjRHRzdFTld6Wnc5RGhkeGRGeTVOcTVHUjlrMU5ZZUdrRmtvQzlaYUJjZzVGNDY3b196SEtkaE1OcnpxekhNUkZKX2VHUXZ2dWwwTWpkWE44dEZORlZUVlc1dVRRNldBNFBxVEFaVFA1STE5eVFuSm80dmJMb3FpbEhGRFhkLVFf?oc=5",
+      "pir": "PIR-2",
+      "indicator": "Sécheresse ou étiage",
+      "score": 9,
+      "score_details": {
+        "pir": 3,
+        "indicateur": 3,
+        "impact_local": 2,
+        "source_primaire_ou_AB": 0,
+        "nouveaute": 1
+      },
+      "justification": "Correspondance lexicale vérifiable — à confirmer",
+      "cote": "F6",
+      "status": "",
+      "confidence": "non evaluee",
+      "demo": false,
+      "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
+    },
+    {
+      "id": "rss-890dde11f37f78e117",
+      "date": "2026-10-04",
+      "title": "Haute-Savoie. Le lac d’Annecy est au plus bas à cause de la sécheresse : faut-il s’en inquiéter ? - Le Dauphiné Libéré",
+      "summary": "Haute-Savoie. Le lac d’Annecy est au plus bas à cause de la sécheresse : faut-il s’en inquiéter ? Le Dauphiné Libéré",
+      "source": "Le Dauphiné Libéré (via Google Actualités)",
+      "publisher_url": "https://www.ledauphine.com",
+      "source_channel": "Sécheresse et étiage",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObkJ6V3JpRG1yQlNfd0ZOTnR2N1NqMy1TYnpWN2dJYmVUczEtQjR5VkN4ak81YVIzMHBES1pCejg5enVVSENHV1lYeFF3TlhwN1hNSkMxblcxdFdsX3NMb0Y5aDhmM0d3WGs3LVVFcDRtdEZEWDlzcXlSak9rSU5RUHB6VWZ5dXJrcUViNGNaVFNsQ2NlLXpoQ3k4TTZhYWlhSmdaa09aQ1BqZmx5UkpJUWo0VFhoX2tsT3NHdHVGWHdCb3d1V0Y5RThudw?oc=5",
+      "pir": "PIR-2",
+      "indicator": "Sécheresse ou étiage",
+      "score": 9,
+      "score_details": {
+        "pir": 3,
+        "indicateur": 3,
+        "impact_local": 2,
+        "source_primaire_ou_AB": 0,
+        "nouveaute": 1
+      },
+      "justification": "Correspondance lexicale vérifiable — à confirmer",
+      "cote": "F6",
+      "status": "",
+      "confidence": "non evaluee",
+      "demo": false,
+      "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
+    }
+  ],
+  "stats": {
+    "new_articles": 4,
+    "feeds_ok": 6,
+    "feeds_failed": 0,
+    "errors": [
+      "Surveillance pref-peche74 : RemoteDisconnected : Remote end closed connection without response"
+    ],
+    "note": "Triage lexical automatique. A6/B6/F6 : la crédibilité des faits reste NON vérifiée."
+  }
 }
