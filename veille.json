@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T11:26:50.371741+01:00",
+  "updated_at": "2026-11-17T21:57:09.708213+01:00",
   "source": "python_rss_sans_ia",
   "articles": [
     {
@@ -108,7 +108,7 @@
     }
   ],
   "stats": {
-    "new_articles": 4,
+    "new_articles": 0,
     "feeds_ok": 6,
     "feeds_failed": 0,
     "errors": [
