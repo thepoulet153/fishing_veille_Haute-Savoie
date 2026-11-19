@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T08:29:04.223206+01:00",
+  "updated_at": "2026-11-19T21:39:36.475814+01:00",
   "source": "python_rss_sans_ia",
   "articles": [
     {
@@ -81,6 +81,32 @@
       "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
     },
     {
+      "id": "rss-babad424df19ef54aa",
+      "date": "2026-10-15",
+      "title": "Sécheresse : un nouveau secteur de l’Arve passe en niveau crise - Le Messager",
+      "summary": "Sécheresse : un nouveau secteur de l’Arve passe en niveau crise Le Messager",
+      "source": "Le Messager (via Google Actualités)",
+      "publisher_url": "https://www.lemessager.fr",
+      "source_channel": "Crues et conditions",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMUwyMW9SSlFRajdoYWtMVnJZa0pNOXNZcUFONW9HbmotbGpCcUdjSTVsRTFtWWM3ZTVqS2xZX0h0bjl3SndjUmw2RjRYMjU4LU11Q195MXhXdEswLXpxVENzX0puSUVTUDlzZDJ0eGd3aElMTGVvZTdBQy1sNk0td3FxVHpialppVThzcjloNVVwMWt6VDN6a2xQZFZyanNOeW8xQTNkX1U2WW5Dc3RKaWRSbks3MUU?oc=5",
+      "pir": "PIR-2",
+      "indicator": "Sécheresse ou étiage",
+      "score": 9,
+      "score_details": {
+        "pir": 3,
+        "indicateur": 3,
+        "impact_local": 2,
+        "source_primaire_ou_AB": 0,
+        "nouveaute": 1
+      },
+      "justification": "Correspondance lexicale vérifiable — à confirmer",
+      "cote": "F6",
+      "status": "",
+      "confidence": "non evaluee",
+      "demo": false,
+      "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
+    },
+    {
       "id": "rss-890dde11f37f78e117",
       "date": "2026-10-04",
       "title": "Haute-Savoie. Le lac d’Annecy est au plus bas à cause de la sécheresse : faut-il s’en inquiéter ? - Le Dauphiné Libéré",
@@ -108,12 +134,10 @@
     }
   ],
   "stats": {
-    "new_articles": 0,
+    "new_articles": 1,
     "feeds_ok": 6,
     "feeds_failed": 0,
-    "errors": [
-      "Surveillance pref-peche74 : RemoteDisconnected : Remote end closed connection without response"
-    ],
+    "errors": [],
     "note": "Triage lexical automatique. A6/B6/F6 : la crédibilité des faits reste NON vérifiée."
   }
 }
