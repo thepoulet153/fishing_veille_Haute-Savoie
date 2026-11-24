@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-11-24T10:56:19.990124+01:00",
+  "updated_at": "2026-11-24T23:28:13.630380+01:00",
   "source": "python_rss_sans_ia",
   "articles": [
+    {
+      "id": "rss-bba501424f370a949c",
+      "date": "2026-11-24",
+      "title": "Il vole 20 tonnes d’eau en pleine sécheresse dans un village de Haute-Savoie - Le Messager",
+      "summary": "Il vole 20 tonnes d’eau en pleine sécheresse dans un village de Haute-Savoie Le Messager",
+      "source": "Le Messager (via Google Actualités)",
+      "publisher_url": "https://www.lemessager.fr",
+      "source_channel": "Sécheresse et étiage",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeG8tb2VNeGRwOGRJRXg5RFY1dFVqWF9OZm41R2dVVWx5dnRYeVprWjJNdWZab0MxTno3M2pfeTdsMlFiUmxtYVZ0czhnUENGTjJvaEpEVVlkQXBMNFVaWXYybmJsREFPZ20wNllyNS1IZ2xOOHZXWElkZzFwNDdNcmFObEw2QUVWSkJlWU9jMXY1UE40MDZDV2plUWdNbWlfdnNnSHZoeU5yOWhsa19MeldQalJkTDY5N1hYQ252Y040aUV4X25EamRVRQ?oc=5",
+      "pir": "PIR-2",
+      "indicator": "Sécheresse ou étiage",
+      "score": 9,
+      "score_details": {
+        "pir": 3,
+        "indicateur": 3,
+        "impact_local": 2,
+        "source_primaire_ou_AB": 0,
+        "nouveaute": 1
+      },
+      "justification": "Correspondance lexicale vérifiable — à confirmer",
+      "cote": "F6",
+      "status": "",
+      "confidence": "non evaluee",
+      "demo": false,
+      "verification": "A vérifier : origine primaire, texte complet, date, effet réel sur le parcours."
+    },
     {
       "id": "rss-c122b1bfc850de000f",
       "date": "2026-11-03",
@@ -134,12 +160,10 @@
     }
   ],
   "stats": {
-    "new_articles": 0,
+    "new_articles": 1,
     "feeds_ok": 6,
     "feeds_failed": 0,
-    "errors": [
-      "Surveillance pref-peche74 : RemoteDisconnected : Remote end closed connection without response"
-    ],
+    "errors": [],
     "note": "Triage lexical automatique. A6/B6/F6 : la crédibilité des faits reste NON vérifiée."
   }
 }
