@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T23:28:13.630380+01:00",
+  "updated_at": "2026-11-25T09:37:57.702706+01:00",
   "source": "python_rss_sans_ia",
   "articles": [
     {
@@ -160,10 +160,13 @@
     }
   ],
   "stats": {
-    "new_articles": 1,
-    "feeds_ok": 6,
-    "feeds_failed": 0,
-    "errors": [],
+    "new_articles": 0,
+    "feeds_ok": 5,
+    "feeds_failed": 1,
+    "errors": [
+      "Flux PIR3-etudes : HTTPError: HTTP Error 429: Too Many Requests",
+      "Surveillance pref-peche74 : RemoteDisconnected : Remote end closed connection without response"
+    ],
     "note": "Triage lexical automatique. A6/B6/F6 : la crédibilité des faits reste NON vérifiée."
   }
 }
