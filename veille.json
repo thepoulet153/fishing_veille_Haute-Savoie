@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T09:37:24.816740+01:00",
+  "updated_at": "2026-11-27T22:19:13.581865+01:00",
   "source": "python_rss_sans_ia",
   "articles": [
     {
@@ -163,9 +163,7 @@
     "new_articles": 0,
     "feeds_ok": 6,
     "feeds_failed": 0,
-    "errors": [
-      "Surveillance pref-peche74 : RemoteDisconnected : Remote end closed connection without response"
-    ],
+    "errors": [],
     "note": "Triage lexical automatique. A6/B6/F6 : la crédibilité des faits reste NON vérifiée."
   }
 }
